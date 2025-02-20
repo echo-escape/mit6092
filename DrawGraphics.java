@@ -16,6 +16,10 @@ public class DrawGraphics {
         for (BouncingBox boxSingle : boxes) {
             boxSingle.setMovementVector(0, -2);
         }
+
+        boxes.get(0).setMovementVector(5, 0);
+        boxes.get(1).setMovementVector(4, -1);
+        boxes.get(2).setMovementVector(4, 1);
     }
 
     /** Draw the contents of the window on surface. Called 20 times per second. */
